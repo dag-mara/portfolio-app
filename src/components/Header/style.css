@@ -16,7 +16,7 @@
 }
 
 .header-text h1 {
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 500;
     line-height: 1;
     margin: 0;
@@ -39,4 +39,23 @@
 
 .arrow-down:hover{
     transform: scale3d(1.1, 1.1, 1.1);
+}
+
+@media screen and (max-width: 1024px) {
+    .header-text h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header-text{
+        transform: translate(-50%, -60%);
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+    .header-text h2 {
+        font-size: 40px;
+    }
 }
