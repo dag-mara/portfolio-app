@@ -11,7 +11,7 @@ footer{
 
 .footer-inner a {
     color: white;
-    display: flex;
+    display: inline-flex;
     font-weight: 300;
 }
 
@@ -27,17 +27,26 @@ footer .injected-svg path {
     margin: 5px 0;
 }
 
+.contact-div a{
+    font-weight: 200;
+}
+
+.code-link p{
+    color: white;
+    font-weight: 200;
+}
+
 .arrow-top{
     cursor: pointer;
     position: absolute;
-    bottom: 20px;
+    top: 22px;
     right: 30px;
     transition: all .2s ease-in;
 }
 
 .arrow-top svg{
     fill: white;
-    height: 50px;
+    height: 40px;
 }
 
 .arrow-top:hover{
