@@ -1,4 +1,5 @@
 .button{
+    display: inline-block;
     font-family: Poppins, sans-serif;
     background-color: white;
     padding: 5px 13px;
