@@ -1,1 +1,1 @@
-portfolio-dagmar-sucha.netlify.app
+https://portfolio-dagmar-sucha.netlify.app/
