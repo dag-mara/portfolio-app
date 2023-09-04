@@ -1,0 +1,42 @@
+.header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 15px 30px;
+}
+
+.header-text{
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+
+.header-text h2 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0;
+}
+
+.arrow-down{
+    height: 50px;
+    position: absolute;
+    bottom: 10vh;
+    right: 30px;
+    transition: all .2s ease-in;
+}
+
+.arrow-down:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}

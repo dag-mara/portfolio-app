@@ -1,0 +1,19 @@
+.project-list-dev-coop-wrapper{
+    padding: 50px 10px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.project-list-dev-coop-wrapper h2 {
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.slick-next:before{
+    content: url(../../../public/images/chevron-right.svg);
+}
+
+.slick-prev:before {
+    content: url(../../../public/images/chevron-left.svg);
+}
