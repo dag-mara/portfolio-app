@@ -1,7 +1,7 @@
 export const projectsDesign = [
   {
     id: 1,
-    title: 'Popleníkové srdce',
+    title: 'Popelníkové srdce',
     image: '/images/popelnik.jpg',
     href: 'https://www.popelnikovesrdce.cz/'
   },
