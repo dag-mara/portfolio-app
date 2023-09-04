@@ -30,6 +30,10 @@ export const Footer = () => {
                         LinkedIn
                     </a>
                 </div>
+                <hr></hr>
+                <div className="code-link">
+                    <p>you can find the code of this website at this address: <a href="https://github.com/dag-mara/portfolio-app" target="_blank">https://github.com/dag-mara/portfolio-app</a></p>
+                </div>
             </div>
             <ReactSVG src="images/arrow-top.svg" className="arrow-top" onClick={scrollToTop}/>
         </footer>
