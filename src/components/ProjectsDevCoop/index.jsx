@@ -25,7 +25,7 @@ export const ProjectsDevCoop = () => {
             {
               breakpoint: 768, // Mobile breakpoint
               settings: {
-                slidesToShow: 2, 
+                slidesToShow: 1, 
               },
             },
           ],
@@ -33,7 +33,7 @@ export const ProjectsDevCoop = () => {
     
       return (
         <div className="project-list-dev-coop-wrapper">
-            <h2>PROJECTS - web development | cooperation</h2>
+            <h2>PROJECTS | web development | cooperation</h2>
             <Slider {...settings}>
                 {projectsDevCoop.map((project) => {
                     return ( 

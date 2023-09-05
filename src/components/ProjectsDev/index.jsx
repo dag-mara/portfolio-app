@@ -6,7 +6,7 @@ import './style.css';
 
 export const ProjectsDev = () => (
     <div className="project-list-dev-wrapper" id="projects">
-        <h2>PROJECTS - web development</h2>
+        <h2>PROJECTS | web development</h2>
         <div className="project-list-dev">
             {projectsDev.map((project) => {
                 return ( 
