@@ -18,14 +18,14 @@ const App = () => {
     console.log('App = ' + color);
 
 
-    var randomColor = 100 + Math.floor(Math.random()*150);
+    var randomColor = 50 + Math.floor(Math.random()*150);
 
     console.log ('randomColor = ' + randomColor);
 
 
     const magicColor = () => {
       if (color == true){
-        return ('rgb(220,' + randomColor + ', 202)')
+        return ('rgb(210, 90,' + randomColor + ')')
       }
       else {
         return 'white'
