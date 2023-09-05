@@ -9,7 +9,7 @@ export const Project = ({project, slider}) => {
         image = <img className="project-image" src={project.image} alt={project.title} />;
       } else {
         image = <ModalImage
-        small={project.image}
+        small={project.imageSmall}
         large={project.image}
         alt={project.title}
         hideZoom = "true"
