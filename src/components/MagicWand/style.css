@@ -1,4 +1,9 @@
 .magic-image{
     margin: 5px;
     cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.magic-image:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
 }
