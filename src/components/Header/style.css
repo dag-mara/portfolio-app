@@ -42,11 +42,17 @@
 
 @media screen and (max-width: 1024px) {
     .header-text h1 {
+        font-size: 90px;
+    }
+    .header-text h2 {
         font-size: 70px;
     }
 }
 
 @media screen and (max-width: 640px) {
+    .header{
+        padding: 15px;
+    }
     .header-text h1 {
         font-size: 50px;
     }
