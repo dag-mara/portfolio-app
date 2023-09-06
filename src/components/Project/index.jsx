@@ -3,11 +3,11 @@ import ModalImage from "react-modal-image";
 import './style.css';
 import arrowIcon from './arrow-right.svg';
 
-export const Project = ({project, slider}) => {
+export const Project = ({ project, slider }) => {
     let image;
     if (slider) {
         image = <img className="project-image" src={project.image} alt={project.title} />;
-      } else {
+    } else {
         image = <ModalImage
         small={project.imageSmall}
         large={project.image}
@@ -15,8 +15,8 @@ export const Project = ({project, slider}) => {
         hideZoom = "true"
         hideDownload = "true"
         />;
-      }
-    
+    }
+
     return (
         <div className="project">
             {image}
@@ -25,12 +25,12 @@ export const Project = ({project, slider}) => {
                 <img src={arrowIcon} alt="link" />
                 <a href={project.href} target="_blank">{project.href}</a>
             </div>
-            
+
         </div>
-        
+
     )
 }
 
 
 
-;
+    ;
