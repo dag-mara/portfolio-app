@@ -9,8 +9,8 @@ export const ProjectsDesign = () => (
         <h2>PROJECTS | web design</h2>
         <div className="project-list-dev">
             {projectsDesign.map((project) => {
-                return ( 
-                    <Project project={project} key={project.id} />             
+                return (
+                    <Project project={project} key={project.id} />
                 )
             })}
         </div>

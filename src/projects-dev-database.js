@@ -41,7 +41,7 @@ export const projectsDev = [
     image: '/images/epkids.jpg',
     href: 'https://epkids.atelierzidlicky.eu/'
   },
-  
+
 ];
 
 export default projectsDev;
