@@ -17,15 +17,24 @@ export const MagicProvider = ({children}) => {
 
     const magicColor = () => {
         if (color == true) {
-        return ('rgb(210, 90,' + randomColor + ')')
+            return ('rgb(210, 90,' + randomColor + ')')
         }
         else {
-        return 'white'
+            return 'white'
+        }
+    }
+
+    const magicColorHeadline = () => {
+        if (color == true) {
+            return ('rgb(210, 90,' + randomColor + ')')
+        }
+        else {
+            return 'black'
         }
     }
     
     return(
-        <MagicContext.Provider value={{color, handleColorChange, magicColor}}>
+        <MagicContext.Provider value={{color, handleColorChange, magicColor, magicColorHeadline}}>
             {children}
         </MagicContext.Provider>
     )
