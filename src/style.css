@@ -11,7 +11,3 @@ html {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-
-.container.magic-effect{
-  background-color: rgb(127, 255, 212);
-}

@@ -3,11 +3,11 @@ import { Button } from "../Button";
 import { MagicWand } from "../MagicWand";
 import './style.css';
 
-export const Menu = ({ onMagicClick }) => {
+export const Menu = () => {
 
     return (
         <div className="menu">
-            <MagicWand onClick={onMagicClick} />
+            <MagicWand />
             <div className="menu-right">
                 <Button title="projects" link="#projects" />
                 <Button title="contact" link="#contact" />
