@@ -46,7 +46,7 @@ export const projectsDev = [
     title: 'EP Kids',
     image: '/images/epkids.jpg',
     imageSmall: '/images/epkids-small.jpg',
-    href: 'https://epkids.atelierzidlicky.eu/'
+    href: 'https://www.epkids.cz/'
   },
 
 ];
