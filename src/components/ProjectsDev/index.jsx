@@ -6,11 +6,11 @@ import { useMagic } from "../../magic-context";
 
 
 export const ProjectsDev = () => {
-    const {magicColorHeadline} = useMagic();
+    const {magicColorText} = useMagic();
 
     return(
         <div className="project-list-dev-wrapper" id="projects">
-            <h2 style={{ color: magicColorHeadline() }}>PROJECTS | web development</h2>
+            <h2 style={{ color: magicColorText() }}>PROJECTS | web development</h2>
             <div className="project-list-dev">
                 {projectsDev.map((project) => {
                     return (

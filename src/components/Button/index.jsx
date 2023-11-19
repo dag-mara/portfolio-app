@@ -3,9 +3,9 @@ import './style.css';
 import { useMagic } from "../../magic-context";
 
 export const Button = ({ link, title, }) => {
-    const {magicColorHeadline} = useMagic();
+    const {magicColorText} = useMagic();
     return (
-        <a className="button" href={link} style={{ color: magicColorHeadline() }}>
+        <a className="button" href={link} style={{ color: magicColorText() }}>
             {title}
         </a>
     )
