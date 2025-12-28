@@ -34,13 +34,13 @@ export const projectsDev = [
     imageSmall: '/images/cajovna-small.jpg',
     href: 'https://cajovnazazrcadlem.cz/'
   },
-  {
-    id: 6,
-    title: 'Stroczech',
-    image: '/images/stroczech.jpg',
-    imageSmall: '/images/stroczech-small.jpg',
-    href: 'https://stroczech.grafique.cz/'
-  },
+  // {
+  //   id: 6,
+  //   title: 'Stroczech',
+  //   image: '/images/stroczech.jpg',
+  //   imageSmall: '/images/stroczech-small.jpg',
+  //   href: 'https://stroczech.grafique.cz/'
+  // },
   {
     id: 7,
     title: 'EP Kids',

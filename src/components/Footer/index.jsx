@@ -12,18 +12,6 @@ export const Footer = () => {
     return (
         <footer id="contact">
             <div className="footer-inner">
-                <div className="contact-div phone">
-                    <a href="tel:+420776236432">
-                        <ReactSVG src="images/envelope-fill.svg" />
-                        +420 776 236 432
-                    </a>
-                </div>
-                <div className="contact-div email">
-                    <a href="mailto:sucha.dagmar@gmail.com">
-                        <ReactSVG src="images/telephone-fill.svg" />
-                        sucha.dagmar@gmail.com
-                    </a>
-                </div>
                 <div className="contact-div">
                     <a href="https://www.linkedin.com/in/dagmar-sucha/" target="_blank">
                         <ReactSVG src="images/linkedin.svg" />
